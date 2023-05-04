@@ -36,7 +36,6 @@ img {
 }
 
 .container {
-  width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -141,6 +140,8 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  height: 600px;
+  width: 1400;
 }
 
 .btn {
@@ -190,14 +191,26 @@ body {
   text-transform: capitalize;
 }
 
+.about-img {
+  display: flex;
+  column-gap: 24px;
+}
+
 /* ================= EMPLOYEES =================*/
 
 .employees {
   background-color: #f4f4fd;
+  width: 1440px;
+  height: 732px;
 }
 
 .employees-list {
   background-color: #ffffff;
+}
+
+.employees-img {
+  display: flex;
+  column-gap: 24px;
 }
 
 .employees-list-name {
