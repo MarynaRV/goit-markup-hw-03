@@ -7,10 +7,66 @@
   --text-color-portfolio-button: #f4f4fd;
 }
 
+.list {
+  list-style: none;
+  font-style: normal;
+}
+.link {
+  text-decoration: none;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /* ================= HEADER ================= */
 
-.page-navigation list {
-  text-decoration: none;
+.page-header {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.page-navigation {
+  display: flex;
+  align-items: center;
+  column-gap: 76px;
+}
+
+.menu-list {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+
+.contact-tel {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -34,10 +90,6 @@
   letter-spacing: 0.03em;
 }
 
-ul {
-  list-style: none;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -46,6 +98,7 @@ body {
 
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 
 .menu-link {
@@ -71,6 +124,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-right: 40px;
 }
 
 /* ================= HERO ================= */
@@ -98,6 +152,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  border-radius: 4px;
+  padding: 16px 32 px;
 }
 
 .btn:hover,
