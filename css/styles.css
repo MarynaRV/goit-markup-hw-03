@@ -36,10 +36,16 @@ img {
 }
 
 .container {
+  width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 /* ================= HEADER ================= */
@@ -133,15 +139,18 @@ body {
 }
 
 .main-title {
+  text-align: center;
   font-family: "Roboto";
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
   height: 600px;
-  width: 1400;
+  padding-top: 188px;
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn {
@@ -154,7 +163,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   border-radius: 4px;
-  padding: 16px 32 px;
+  padding: 16px 32px;
 }
 
 .btn:hover,
@@ -170,6 +179,14 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  flex-basis: calc(100%-72px) / 4;
+  margin-bottom: 8px;
+}
+
+.info-list {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
 }
 
 .about {
@@ -189,6 +206,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .about-img {
@@ -200,7 +218,6 @@ body {
 
 .employees {
   background-color: #f4f4fd;
-  width: 1440px;
   height: 732px;
 }
 
