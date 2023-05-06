@@ -388,7 +388,7 @@ body {
   border: 1px solid transparent;
 }
 
-.link-img {
+.img-li {
   width: calc((100% - 48px) / 3);
 }
 
