@@ -140,11 +140,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-right: 40px;
-  padding: 24px 0;
 }
 
 .menu-item {
   gap: 40px;
+  padding: 24px 0;
 }
 
 /* ================= HERO ================= */
