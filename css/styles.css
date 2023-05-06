@@ -124,6 +124,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu-link:hover,
@@ -141,11 +143,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-right: 40px;
-}
-
-.logo-header {
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .menu-item {
@@ -340,7 +337,7 @@ body {
   margin-top: 16px;
 }
 
-.span-logo {
+.span-logo-footer {
   color: #f4f4fd;
 }
 
