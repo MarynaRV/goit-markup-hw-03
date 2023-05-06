@@ -217,7 +217,12 @@ body {
 }
 
 .section-info {
-  margin-top: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.section-info-div {
+  display: flex;
 }
 
 /* ================= ABOUT ================= */
