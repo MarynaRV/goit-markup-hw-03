@@ -242,13 +242,12 @@ body {
 
 .about-li {
   display: flex;
-  gap: 24px;
   width: calc((100% - 48px) / 3);
 }
 
 .about-img {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 /* ================= EMPLOYEES =================*/
