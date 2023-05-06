@@ -76,7 +76,6 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .contact-tel {
@@ -124,8 +123,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .menu-link:hover,
