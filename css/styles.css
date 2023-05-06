@@ -144,10 +144,15 @@ body {
 
 /* ================= HERO ================= */
 
-.hero {
+/* .hero {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+} */
+
+.portfolio-info {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .main-title {
