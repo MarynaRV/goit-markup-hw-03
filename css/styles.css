@@ -388,7 +388,7 @@ body {
   border: 1px solid transparent;
 }
 
-.img-li {
+.img-li-one {
   width: calc((100% - 48px) / 3);
 }
 
