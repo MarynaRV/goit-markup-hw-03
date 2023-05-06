@@ -306,6 +306,7 @@ body {
 /* ================= FOOTER =================*/
 .footer-list {
   background-color: var(--primary-text-color-theme-dark);
+  padding: 100px 0;
 }
 
 .footer {
@@ -324,6 +325,11 @@ body {
 
 .span-logo-footer {
   color: #f4f4fd;
+}
+
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 /* ================= Portfolio =================*/
