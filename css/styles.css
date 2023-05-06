@@ -396,7 +396,7 @@ body {
   row-gap: 48px;
 }
 
-.list-img:first-child {
+.img-li {
   width: calc((100% - 48px) / 3);
 }
 
