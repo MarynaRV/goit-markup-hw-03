@@ -143,6 +143,15 @@ body {
   margin-right: 40px;
 }
 
+.logo-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.menu-item {
+  gap: 40px;
+}
+
 /* ================= HERO ================= */
 
 .hero {
