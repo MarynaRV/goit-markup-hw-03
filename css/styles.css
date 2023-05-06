@@ -73,7 +73,7 @@ img {
 .menu-list {
   display: flex;
   align-items: center;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .contact-tel {
@@ -90,6 +90,7 @@ img {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-right: 76px;
 }
 
 .span-logo {
