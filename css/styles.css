@@ -385,6 +385,7 @@ body {
 .button:focus {
   background-color: var(--text-color-blue);
   color: white;
+  border: 1px solid transparent;
 }
 
 .list-img {
