@@ -338,7 +338,6 @@ body {
   height: 72px;
   left: 156px;
   top: 2420px;
-  margin-top: 16px;
 }
 
 .span-logo-footer {
@@ -347,6 +346,7 @@ body {
 
 .logo-footer {
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 /* ================= Portfolio =================*/
